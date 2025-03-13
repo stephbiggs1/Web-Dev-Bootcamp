@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: white;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(247, 255, 255);
+  padding: 1rem;
+  top: 0;
+  font-weight: bold;
+  letter-spacing: 5px;
+  position: fixed;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 0.5rem;
+}
+
+.left {
+  padding: 2rem;
+}
+
+span {
+  color: rgb(255, 183, 125);
+}
+
+.message {
+  font-size: 15px;
+  margin-bottom: 0.3rem;
+  color: rgb(255, 183, 125);
+}
+
+input {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  width: 24rem;
+  border-color: rgb(255, 183, 125);
+  border-style: solid;
+}
